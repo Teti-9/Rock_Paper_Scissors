@@ -12,22 +12,22 @@ def desabilitar():
 
 def pedra_player():
     image_x = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\red.png"
+        "directory/icons"
     )
     icon_x = ImageTk.PhotoImage(image_x)
 
     image_pedra = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\pedra.png"
+        "directory/icons"
     )
     icon_pedra = ImageTk.PhotoImage(image_pedra)
 
     image_papel = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\papel.png"
+        "directory/icons"
     )
     icon_papel = ImageTk.PhotoImage(image_papel)
 
     image_tesoura = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\tesoura.png"
+        "directory/icons"
     )
     icon_tesoura = ImageTk.PhotoImage(image_tesoura)
 
@@ -63,22 +63,22 @@ def pedra_player():
 
 def papel_player():
     image_x = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\red.png"
+        "directory/icons"
     )
     icon_x = ImageTk.PhotoImage(image_x)
 
     image_pedra = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\pedra.png"
+        "directory/icons"
     )
     icon_pedra = ImageTk.PhotoImage(image_pedra)
 
     image_papel = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\papel.png"
+        "directory/icons"
     )
     icon_papel = ImageTk.PhotoImage(image_papel)
 
     image_tesoura = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\tesoura.png"
+        "directory/icons"
     )
     icon_tesoura = ImageTk.PhotoImage(image_tesoura)
     l_papel = Label(root_play, image=icon_papel, bg="light yellow")
@@ -113,22 +113,22 @@ def papel_player():
 
 def tesoura_player():
     image_x = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\red.png"
+        "directory/icons"
     )
     icon_x = ImageTk.PhotoImage(image_x)
 
     image_pedra = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\pedra.png"
+        "directory/icons"
     )
     icon_pedra = ImageTk.PhotoImage(image_pedra)
 
     image_papel = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\papel.png"
+        "directory/icons"
     )
     icon_papel = ImageTk.PhotoImage(image_papel)
 
     image_tesoura = Image.open(
-        "C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\tesoura.png"
+        "directory/icons"
     )
     icon_tesoura = ImageTk.PhotoImage(image_tesoura)
     l_tesoura = Label(root_play, image=icon_tesoura, bg="light yellow")
@@ -255,7 +255,7 @@ def jogar():
     root_play.geometry("500x450")
     root_play.config(bg="light yellow")
     icone_jkp = PhotoImage(
-        file="C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\jkp.png"
+        file="directory/icons"
     )
     root_play.iconphoto(True, icone_jkp)
     status()
@@ -270,7 +270,7 @@ def mainscreen():
     root.geometry("350x220")
     root.config(bg="#3297a8")
     icone_i = PhotoImage(
-        file="C:\\Users\\Teti\\Desktop\\Programação\\Projects\\Codes\\Projects\\Icons\\start.png"
+        file="directory/icons"
     )
     root.iconphoto(False, icone_i)
     l_main = Label(root, text="Bem vindo!", bg="#3297a8", font=("Courier New", 30))
